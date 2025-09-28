@@ -1,5 +1,5 @@
 # Multi-Agent Q-Learning Experiments
-
+NOTE: This code was for my own experimentaiton/understanding. The experiments are simple, and purely just to test out basic RL concepts in a small setting.
 Some basic experiments exploring cooperation and competition in multi-agent reinforcement learning systems (q-learning)
 
 ## Overview
@@ -40,8 +40,6 @@ This repository contains simple implementations testing how different Q-learning
   - Agent 2 can see Agent 1's chosen action
 
 ### 2. Prisoner's Dilemma (`pd.py`, `pd_together.py`)
-
-NOTE: This code was for my own experimentaiton/understanding. The experiments are simple, and purely just to test out basic RL concepts in a small setting.
 
 **Environment**: Classic 2-player Prisoner's Dilemma with standard payoff matrix.
 
