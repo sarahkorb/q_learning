@@ -41,6 +41,8 @@ This repository contains simple implementations testing how different Q-learning
 
 ### 2. Prisoner's Dilemma (`pd.py`, `pd_together.py`)
 
+NOTE: This code was for my own experimentaiton/understanding. The experiments are simple, and purely just to test out basic RL concepts in a small setting.
+
 **Environment**: Classic 2-player Prisoner's Dilemma with standard payoff matrix.
 
 **Payoffs**:
@@ -67,10 +69,8 @@ This repository contains simple implementations testing how different Q-learning
 ### Grid World Results
 - **Greedy agents**: ~50% collision rate, deterministic but inefficient
 - **Individual Q-learning**: Low apple collection, agents avoid risk
-- **Shared Q-learning**: Better coordination, fewer collisions, balanced rewards
+- **Shared Q-learning**: Better coordination, fewer collisions, (somewhat...) balanced rewards
 
 ### Prisoner's Dilemma Results
 - **Individual**: Tends toward mutual defection (Nash equilibrium)
 - **Shared**: Higher cooperation rates when optimizing joint reward
-
-This code was for my own experimentaiton/understanding. The experiments are simple, and purely just to test out basic RL concepts in a small setting.
